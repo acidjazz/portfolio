@@ -1,0 +1,35 @@
+{
+  "cfg": {
+    "meta": {
+      "title": "Kevin Scott Olson Junior",
+      "description": "The Work of Kevin Scott Olson Junior"
+    },
+
+    "path": "/var/www/256/",
+    "url": "http://256.k/",
+    "stylus": "true",
+
+    "kdb": {
+      "debug": "true",
+      "handler": "true"
+    },
+
+    "summon": {
+      "secret": "lkwjerlkwejrklew"
+    },
+
+    "mongo": {
+      "triton": {
+        "host": "mongodb://localhost:27017/",
+        "db": "256"
+      }
+    },
+
+    "node": {
+      "path": "/usr/lib/node_modules/"
+    }
+
+  }
+
+}
+

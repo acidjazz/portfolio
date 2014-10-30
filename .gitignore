@@ -1,0 +1,8 @@
+cfg/config.json
+che/*
+css/_*
+*.swp
+.buildpath
+.settings
+.project
+build.*

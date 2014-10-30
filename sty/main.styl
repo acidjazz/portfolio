@@ -1,0 +1,30 @@
+/*
+  stylus -w sty/main.styl -o css/.  
+*/
+
+vendor-prefixes ?= webkit moz o ms official
+
+@import _fonts
+
+@import vendor
+@import mixins
+
+html
+  height 100%
+
+body
+  font-family segoe_light
+  font-size 16px
+  margin 0
+  padding 0
+
+::-webkit-input-placeholder
+  font-family segoe_light
+:-moz-placeholder
+  font-family segoe_light
+:-ms-input-placeholder
+  font-family segoe_light
+
+.clear
+  clearfix()
+
