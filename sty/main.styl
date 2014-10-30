@@ -4,17 +4,19 @@
 
 vendor-prefixes ?= webkit moz o ms official
 
-@import _fonts
+@import fonts
 
 @import vendor
+
 @import mixins
+@import vars
 
 html
   height 100%
 
 body
   font-family segoe_light
-  font-size 16px
+  font-size 20px
   margin 0
   padding 0
 
@@ -28,3 +30,15 @@ body
 .clear
   clearfix()
 
+.icon
+  width 20em
+  height 20em
+  border 0.5em solid c_black1
+  border-radius 50%
+  font-size 1em
+  margin 10em 0 0 10em
+  overflow hidden
+  > .copy
+    font-size 10.5em
+    font-family proxima_bold
+    margin 0.4em 0 0 0.15em

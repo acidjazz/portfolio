@@ -1,8 +1,10 @@
 cfg/config.json
-che/*
 css/_*
 *.swp
 .buildpath
 .settings
 .project
 build.*
+*.DS_Store
+[Tt]humbs.db
+
