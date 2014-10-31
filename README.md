@@ -1,6 +1,7 @@
 
 Kevin Scott Olson Junior
 ===
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/acidjazz/portfolio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Web based interface displaying my past projects for work and fun
 
